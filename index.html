@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Service Keyword Phrase | Company Name | City, State</title>
+
+
+</head>
+
+<body>
+    <header id="navigation">
+        <div class="container">
+            <!--Nav Logo-->
+            <a href="/index.html" class="logo" aria-label="back to home">
+                Site Title
+            </a>
+            <!--Navigation List-->
+            <nav class="nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="toggle" aria-label="mobile menu toggle">
+                    <div class="box" aria-hidden="true">
+                        <span class="line line1" aria-hidden="true"></span>
+                        <span class="line line2" aria-hidden="true"></span>
+
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="ul-wrapper">
+                    <ul id="expanded" class="ul" aria-expanded="false">
+                        <li class="li">
+                            <a href="/index.html" class="li-link active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="li">
+                            <a href="/about.html" class="li-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="li">
+                            <a href="/reviews.html" class="li-link">
+                                Reviews
+                            </a>
+                        </li>
+                        <li class="li">
+                            <a href="/contact.html" class="li-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="hero">
+            <div class="container">
+                <h1 class="title">
+                    Fit today, Stronger tomorrow
+                </h1>
+                <p class="text">
+                    Unlock your potential and redefine your limits with us.
+                    Our trainers tailor workouts to your ability, ensuring you’re fit
+                    today and undeniably stronger tomorrow.
+                </p>
+                <button class="learn-more button-solid">Learn More</button>
+            </div>
+
+
+            <!-- Background Image -->
+            <picture class="background">
+                <source media="(max-width: 576px)" srcset="/assets/imgs/m-hero.png">
+                <source media="(max-width: 768px)" srcset="/assets/imgs/tablet-hero.png">
+                <source srcset="/assets/imgs/desktop-hero.png"> <!-- No media query, acts as fallback -->
+                <img loading="lazy" decoding="async" alt="barbell" width="2000" height="1333" aria-hidden="true">
+            </picture>
+
+
+        </section>
+        <section id="about-us-section">
+            <span class="about-us grey-span">ABOUT US</span>
+            <h2 class="title">Why choose StartFit?Discover our unique edge</h2>
+            <p class="text">
+                It’s our commitment to your health. We deliver effective,
+                efficient workouts paired with nutritional
+                guidance to help you reach your fitness peak.
+            </p>
+            <ul class="features-list">
+                <li class="feature">
+                    <h3 class="feature-name">Personalised Workouts</h3>
+                    <p class="feature-description">
+                        StartFit’s Expert Coaches are certified fitness
+                        pros dedicated to guiding you towards your
+                        health goals.
+                    </p>
+                </li>
+                <li class="feature">
+                    <h3 class="feature-name">Cutting-edge Facilities</h3>
+                    <p class="feature-description">
+                        Our state-of-the-art facilities are designed
+                        to enhance your workout experience and fuel your
+                        progress.
+                    </p>
+                </li>
+                <li class="feature">
+                    <h3 class="feature-name">Supportive Community</h3>
+                    <p class="feature-description">
+                        You’ll train alongside like-minded people who encourage and inspire
+                        each other towards their fitness goals.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section id="featured-in">
+            <span class="seen-on grey-span">AS SEEN ON</span>
+            <ul class="list-of-apparisons">
+                <li class="apparison">
+                    <figure>
+                        <img src="https://s0.wp.com/wp-content/themes/pub/startfit/assets/images/logo1.png" alt class
+                            style="width:200px;height:60px" width="200" height="60" scale="0">
+                    </figure>
+                </li>
+                <li class="apparison">
+                    <figure>
+                        <img src="https://s0.wp.com/wp-content/themes/pub/startfit/assets/images/logo2.png" alt class
+                            style="width:200px;height:60px" width="200" height="60" scale="0">
+
+                    </figure>
+                </li>
+                <li class="apparison">
+                    <figure>
+                        <img src="https://s0.wp.com/wp-content/themes/pub/startfit/assets/images/logo3.png" alt class
+                            style="width:200px;height:60px" width="200" height="60" scale="0">
+                    </figure>
+                </li>
+                <li class="apparison">
+                    <figure>
+                        <img src="https://s0.wp.com/wp-content/themes/pub/startfit/assets/images/logo4.png" alt class
+                            style="width:200px;height:60px" width="200" height="60" scale="0">
+                    </figure>
+                </li>
+                <li class="apparison">
+                    <figure>
+                        <img src="https://s0.wp.com/wp-content/themes/pub/startfit/assets/images/logo5.png" alt class
+                            style="width:200px;height:60px" width="200" height="60" scale="0">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <section id="guide-section">
+            <span class="guide grey-span">
+                QUICK START GUIDE
+            </span>
+            <div class="guide-section-container">
+                <h2 class="title">
+                    6-step success:<br>
+                    Your fitness roadmap
+                </h2>
+                <p class="text">
+                    We’ve developed a meticulously crafted, comprehensive
+                    six-step process that acts as your personal roadmap,
+                    guiding you steadily towards your fitness goals.
+                </p>
+            </div>
+
+            <ol class="list-topics">
+                <li class="topic">
+                    <h2 class="title">
+                        Personalised Fitness Assessment
+                    </h2>
+                    <p class="text">
+                        We begin with a comprehensive understanding of your history, goals, and lifestyle. This holistic
+                        approach, encompassing habits and nutrition, ensure a tailor-made fitness journey just for you.
+                    </p>
+                    <a href="" class="topic-link">Fitness Assessment→</a>
+                </li>
+                <li class="topic">
+                    <h2 class="title">
+                        Basic Movement Assessments
+                    </h2>
+                    <p class="text">
+                        In our assessments, we prioritise perfecting your techniques to ensure safe, effective training.
+                        Through meticulous movement evaluations, we facilitate the correct form, fostering long-term
+                        health.
+                    </p>
+                    <a href="" class="topic-link">Movement Assessments→</a>
+                </li>
+                <li class="topic">
+                    <h2 class="title">
+                        Precision Body Composition Scan
+                    </h2>
+                    <p class="text">
+                        Using the top-tier machine, we track your body. These regular, detailed scans become the guiding
+                        compass for our personalised fitness and nutrition strategies, continuously adapted to your
+                        body’s needs.
+                    </p>
+                    <a href="" class="topic-link">Composition Scan→</a>
+                </li>
+                <li class="topic">
+                    <h2 class="title">
+                        Adaptable Fitness Assessments
+                    </h2>
+                    <p class="text">
+                        We cater to all levels, setting a baseline for tracking your progress. From beginners to
+                        advanced, our fitness assessments ensure visible, measurable improvements.
+                    </p>
+                    <a href="" class="topic-link">Fitness Assessments→</a>
+                </li>
+                <li class="topic">
+                    <h2 class="title">
+                        Personalised Programs & Consistent Support
+                    </h2>
+                    <p class="text">
+                        With deep insight into your fitness profile, our coaches devise the perfect program for you.
+                        They offer unwavering support and drive you towards your goals.
+                    </p>
+                    <a href="" class="topic-link">Programs & Support→</a>
+                </li>
+                <li class="topic">
+                    <h2 class="title">
+                        Personalised Nutrition Guidance
+                    </h2>
+                    <p class="text">
+                        Understanding your nutritional needs is vital for optimal health. We aim to help you discover
+                        the ideal nutrition plan for your unique needs and fitness goals for the future.
+                    </p>
+                    <a href="" class="topic-link">Nutrition Guidance→</a>
+                </li>
+            </ol>
+        </section>
+        <section id="reviews">
+            <span class="what-people-say">WHAT PEOPLE SAY</span>
+            <p class="review-text">
+                StartFit didn’t just change my workout routine, it revolutionised my entire lifestyle. I’ve never felt
+                stronger, healthier or happier!
+            </p>
+            <div class="profile">
+                <img src="https://s0.wp.com/wp-content/themes/pub/startfit/assets/images/user-avatar.png" alt class
+                    style="border-radius:50%;width:48px;height:48px" width="48" height="48" scale="0">
+                <div class="profile-info">
+                    <span class="name">
+                        Kate Williams
+                    </span>
+                    <span class="location">
+                        in Hove
+                    </span>
+                </div>
+            </div>
+
+        </section>
+        <section id="pricing">
+            <span class="simple-pricing grey-span">SIMPLE PRICING</span>
+            <div class="pricing-header-container">
+                <h2 class="title">
+                    Minimal investment,
+                    Maximum results
+                </h2>
+                <p class="text">
+                    At StartFit, we believe in making fitness affordable. Enjoy high-value training experiences
+                    at incredibly competitive prices.
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="plan-container">
+                    <div class="plan">
+                        <h3 class="title">
+                            Starter Plan
+                        </h3>
+                        <p class="text">
+                            Perfect for fitness newcomers, this plan eases you into the fitness world with personalised
+                            workouts, simple nutrition guidance, and a supportive community. Choose this for a gentle
+                            introduction to your fitness journey.
+                        </p>
+                        <div class="price-container">
+                            <span class="cost">
+                                $160
+                            </span>
+                            <span class="recurrence">
+                                per month
+                            </span>
+                        </div>
+                        <button class="button-solid">Get Started</button>
+                    </div>
+                    <ul class="details">
+                        <li class="item">2 training sessions per week</li>
+                        <li class="item">Basic nutrition guidance</li>
+                        <li class="item">Access to all group classes</li>
+                    </ul>
+                </div>
+
+
+                <div class="plan-container">
+                    <div class="plan">
+                        <h3 class="title">
+                            Performance Plan
+                        </h3>
+                        <p class="text">
+                            Ideal for those with some fitness background, this plan elevates your routine with
+                            personalised training, advanced nutrition advice, and progress tracking. Choose this to take
+                            your fitness to the next level.
+                        </p>
+                        <div class="price-container">
+                            <span class="cost">
+                                $300
+                            </span>
+                            <span class="recurrence">
+                                per month
+                            </span>
+                        </div>
+                        <button class="button-solid">Get Started</button>
+                    </div>
+                    <ul class="details">
+                        <li class="item">3 training sessions per week</li>
+                        <li class="item">Tailored nutrition advice</li>
+                        <li class="item">Access to all group classes</li>
+                        <li class="item">Monthly body composition scans</li>
+                    </ul>
+                </div>
+
+
+                <div class="plan-container">
+                    <div class="plan">
+                        <h3 class="title">
+                            Elite Plan
+                        </h3>
+                        <p class="text">
+                            Tailored for serious fitness enthusiasts or athletes, this comprehensive plan optimises your
+                            performance with an intense training regimen, highly personalised nutrition strategies, and
+                            precise progress tracking.
+                        </p>
+                        <div class="price-container">
+                            <span class="cost">
+                                $680
+                            </span>
+                            <span class="recurrence">
+                                per month
+                            </span>
+                        </div>
+                        <button class="button-solid">Get Started</button>
+                    </div>
+                    <ul class="details">
+                        <li class="item">5 training sessions per week</li>
+                        <li class="item">Personalised nutrition plans</li>
+                        <li class="item">Priority booking for all group classes</li>
+                        <li class="item">Bi-weekly body composition scans</li>
+                        <li class="item">Ongoing performance assessments</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="not-convinced">
+                Not convinced? We offer a 100% money-back guarantee for all purchases. Try our product confidently; if
+                you don’t like it, we’ll make it right.
+            </p>
+        </section>
+        <section id="call-to-action">
+            <picture class="background">
+                <source media="(max-width: 576px)" srcset="/assets/imgs/calltoaction-m.png">
+                <source media="(max-width: 768px)" srcset="/assets/imgs/calltoaction-tablet.png">
+                <source srcset="/assets/imgs/calltoaction.png"> <!-- No media query, acts as fallback -->
+                <img loading="lazy" decoding="async" alt="ropes" width="2000" height="1333" aria-hidden="true">
+            </picture>
+
+
+            <div class="container">
+                <div class="container-container">
+                    <h2 class="title">
+                        Ready to ignite your fitness revolution?
+                    </h2>
+                    <p class="text">
+                        There has never been a better time than right now. Dive into your fitness journey with StartFit
+                        today.
+                    </p>
+                    <button class="call-to-action-button">Get Started</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="site-info">
+            <a href="" target="_self" rel="home" aria-current="page">Site Title</a>
+            <span class="area">Personal fitness training service</span>
+        </div>
+        <p class="additional-info">
+            Unlock your potential and redefine your limits with us. Our trainers tailor workouts to your ability,
+            ensuring you’re fit today and undeniably stronger tomorrow. It’s our commitment to your health. We deliver
+            effective, efficient workouts paired with nutritional guidance to help you reach your fitness peak.
+        </p>
+        <p class="link">Blog at <a href="">WordPress.com</a>.</p>
+        <div class="stay-updated">
+            <h3 class="title">Get updated</h3>
+            <p class="text">
+                Stay ahead in your fitness journey with our exclusive tips and offers.</p>
+            <ul class="socials">
+                <li class="social-icon">
+                    facebook
+                </li>
+                <li class="social-icon">twitter</li>
+                <li class="social-icon"> that stuff </li>
+                <li class="social-icon"> tumbulr</li>
+            </ul>
+            <form class="submit-email" type="submit">
+                <input type="text" placeholder="Your email">
+                <button class="subscribe solid-button">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+    <script defer src="/assets/js/nav.js"></script>
+</body>
+
+</html>
